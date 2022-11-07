@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding-block: 50px;
+    align-items: center;
+}
+
+.card {
+    padding: 40px;
+    width: 300px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 6px 0 0;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 6px 6px;
+
+}
+
+.sedans-img {}
+
+
+.text-sedans {
+    margin-top: 20px;
+    color: white;
+}
+
+
+.btn {
+    border-radius: 100px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+.p-sedans {
+    margin-top: 20px;
+}
+
+.body {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.603);
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+
+.text-luxury {
+    color: white;
+}
+
+
+.header {
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding-block: 50px;
+    align-items: center;
+}
+
+.card {
+    padding: 40px;
+    width: 300px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 6px 0 0;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 6px 6px;
+
+}
+
+.sedans-img {}
+
+
+.text-sedans {
+    margin-top: 20px;
+    color: white;
+}
+
+
+.btn {
+    border-radius: 100px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.p-sedans {
+    margin-top: 20px;
+}
+
+.body {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.603);
+    margin-top: 30px;
+    line-height: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+
+
+.text-luxury {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 24px;
+}
+
+
+.header {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 30px;
+}
+
+
+.suv{
+    color: hsl(184, 100%, 22%);
+}
+
+
+.lux{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (min-width:1000px) {
+  .con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+  }
+  .card{
+    height: 360px;
+  }
+  .suvs{
+    border: none;
+  }
+  .luxury{
+    border-radius: 0 6px 6px 0;
+  }
+.sedans{
+    border-radius: 6px 0 0 6px;
+}
+.btn:hover{
+background-color: transparent;
+transition: 0.5s;
+color: white;
+border: 2px solid white;
+}
+.btn{
+    
+}
+}
